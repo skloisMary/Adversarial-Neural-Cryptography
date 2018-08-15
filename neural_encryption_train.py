@@ -3,8 +3,8 @@ import numpy as np
 import Net
 import os
 
-plainTextLength = 64
-keyLength = 64
+plainTextLength = 16
+keyLength = 16
 N = plainTextLength / 2
 batch = 4096
 learningRate = 0.0008
